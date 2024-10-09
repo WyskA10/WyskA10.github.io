@@ -1,0 +1,23 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "main": "paddle.js",
+  "scripts": {
+    "test": "nodemon --ext js --exec 'jasmine'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "7.24.7",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "deltav": "git+ssh://github.com/vega-studio/deltav.git#4.2.2",
+    "jasmine": "5.1.0",
+    "nodemon": "3.1.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
